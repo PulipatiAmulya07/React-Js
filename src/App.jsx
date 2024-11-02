@@ -10,6 +10,7 @@ import ContactUs from "./ContactUs";
 import Purchase from "./Purchase";
 import GoogleLoginComponent from "./GoogleLoginComponent";
 import { GoogleOAuthProvider } from "@react-oauth/google";
+import FacebookLoginComponent from "./FacebookLoginComponent";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
     <GoogleOAuthProvider clientId="592801306186-b79208ocopfcbm1orallo12o9snthp3c.apps.googleusercontent.com">
       <GoogleLoginComponent/>
     </GoogleOAuthProvider>
+    <FacebookLoginComponent />
     <BrowserRouter>
       <nav>
         <Link to="/home">Home</Link>

@@ -32,7 +32,7 @@ const FacebookLoginComponent = ({ appId }) => {
                 </div>
             ) : (
                 <FacebookLogin
-                    appId={appId}
+                    appId="1674706573099412"
                     autoLoad={false}
                     fields="name,email,picture"
                     callback={responseFacebook}
